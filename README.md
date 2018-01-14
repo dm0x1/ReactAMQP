@@ -8,7 +8,7 @@ Basic AMQP bindings for [React PHP](https://github.com/reactphp).
 This library requires PHP 5.4 and the [PECL AMQP extension](http://pecl.php.net/package/amqp). The best way to install this library is [through composer](http://getcomposer.org).
 
 ```cmd 
-composer require gos/react-amqp
+composer require dm0x1/react-amqp
 ```
 
 ## Usage
