@@ -1,5 +1,5 @@
 {
-    "name": "gos/react-amqp",
+    "name": "dm0x1/react-amqp",
     "description": "AMQP bindings for ReactPHP",
     "keywords": ["amqp", "rabbitmq"],
     "license": "MIT",
