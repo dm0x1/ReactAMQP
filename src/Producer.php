@@ -27,7 +27,7 @@ class Producer extends EventEmitter implements Countable, IteratorAggregate
     /**
      * Event loop.
      *
-     * @var React\EventLoop\LoopInterface
+     * @var \React\EventLoop\LoopInterface
      */
     protected $loop;
 
@@ -54,7 +54,7 @@ class Producer extends EventEmitter implements Countable, IteratorAggregate
      * Constructor. Stores the message queue and the event loop for use.
      *
      * @param AMQPExchange                  $exchange Message queue
-     * @param React\EventLoop\LoopInterface $loop     Event loop
+     * @param \React\EventLoop\LoopInterface $loop     Event loop
      * @param float                         $interval Interval to run loop to send messages
      */
     public function __construct(AMQPExchange $exchange, LoopInterface $loop, $interval)
